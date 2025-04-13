@@ -1,10 +1,7 @@
 import React from "react";
-
-// Import existing components
 import Navbar from "./Navbar";
 import Home from "./Home";
 
-// ✅ Define the About component
 function About() {
   return (
     <div id="about">
@@ -13,10 +10,10 @@ function About() {
   );
 }
 
-// ✅ App component with Navbar, Home, and About
 function App() {
   return (
     <div>
+     
       <Navbar />
       <Home />
       <About />
